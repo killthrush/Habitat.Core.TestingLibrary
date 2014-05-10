@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Habitat.Core.TestingLibrary</id>
     <version>$version$</version>
     <title>Habitat.Core.TestingLibrary</title>
     <authors>Ben Peterson</authors>
-    <owners></owners>
+    <owners>
+    </owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Core library used to support unit tests for Habitat. Includes:
@@ -16,11 +17,14 @@
       - Helpers for testing code built on the Task Parallel Library
     </description>
     <summary>Core library used to support unit tests for Habitat.</summary>
-    <releaseNotes>
-    </releaseNotes>
+    <releaseNotes>-Bumped up minimum Moq dependency to 4.2.
+      -Added missing assemblyinfo file to NugetBuild project
+      -Added github project URL, license URL, and release notes to nuspec file</releaseNotes>
+    <licenseUrl>http://choosealicense.com/licenses/gpl-v3/</licenseUrl>
     <copyright>2014</copyright>
     <language>en-US</language>
     <tags>Habitat Library</tags>
+    <projectUrl>https://github.com/killthrush/Habitat.Core.TestingLibrary</projectUrl>
     <dependencies>
       <dependency id="Moq" version="[4.2,5.0)" />
       <dependency id="MSFT.ParallelExtensionsExtras" version="[1.2.0]" />

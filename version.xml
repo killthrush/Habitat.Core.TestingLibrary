@@ -1,16 +1,20 @@
 <!-- 
 Version numbers should be in format x.x.x where x is an integer. 
 Versions should be incremented based on rules of semantic versioning (http://semver.org), using <major>.<minor>.<patch> versions only.
-Description can describe which team is working on, and maybe something about the nature of the change.
 ALWAYS ADD AT THE BOTTOM!
 -->
 <Versions>
   <Version number="1.0.0">
-	Initial version
+    <ReleaseNotes>
+      Initial version
+    </ReleaseNotes>
   </Version>
   <Version number="1.0.1">
-    -Bumped up minimum Moq dependency to 4.2.
-    -Added missing assemblyinfo file to NugetBuild project
+    <ReleaseNotes>
+      -Bumped up minimum Moq dependency to 4.2.
+      -Added missing assemblyinfo file to NugetBuild project
+      -Added github project URL, license URL, and release notes to nuspec file
+    </ReleaseNotes>
   </Version>
 </Versions>
 
