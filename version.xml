@@ -7,6 +7,10 @@ ALWAYS ADD AT THE BOTTOM!
 <Versions>
   <Version number="1.0.0">
 	Initial version
-  </Version> 
+  </Version>
+  <Version number="1.0.1">
+    -Bumped up minimum Moq dependency to 4.2.
+    -Added missing assemblyinfo file to NugetBuild project
+  </Version>
 </Versions>
 

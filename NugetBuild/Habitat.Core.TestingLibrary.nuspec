@@ -22,7 +22,7 @@
     <language>en-US</language>
     <tags>Habitat Library</tags>
     <dependencies>
-      <dependency id="Moq" version="[4.0,5.0)" />
+      <dependency id="Moq" version="[4.2,5.0)" />
       <dependency id="MSFT.ParallelExtensionsExtras" version="[1.2.0]" />
       <dependency id="Newtonsoft.Json" version="[6.0,7.0)" />
       <dependency id="SystemWrapper-sn" version="[0.5.3]" />
