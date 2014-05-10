@@ -17,16 +17,14 @@
       - Helpers for testing code built on the Task Parallel Library
     </description>
     <summary>Core library used to support unit tests for Habitat.</summary>
-    <releaseNotes>-Bumped up minimum Moq dependency to 4.2.
-      -Added missing assemblyinfo file to NugetBuild project
-      -Added github project URL, license URL, and release notes to nuspec file</releaseNotes>
+    <releaseNotes>-Because Moq is strong-named and this class returns Moq types, ensure that the Moq dependency uses an exact version number</releaseNotes>
     <licenseUrl>http://choosealicense.com/licenses/gpl-v3/</licenseUrl>
     <copyright>2014</copyright>
     <language>en-US</language>
     <tags>Habitat Library</tags>
     <projectUrl>https://github.com/killthrush/Habitat.Core.TestingLibrary</projectUrl>
     <dependencies>
-      <dependency id="Moq" version="[4.2,5.0)" />
+      <dependency id="Moq" version="[4.2.1402.2112]" />
       <dependency id="MSFT.ParallelExtensionsExtras" version="[1.2.0]" />
       <dependency id="Newtonsoft.Json" version="[6.0,7.0)" />
       <dependency id="SystemWrapper-sn" version="[0.5.3]" />

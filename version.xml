@@ -16,5 +16,10 @@ ALWAYS ADD AT THE BOTTOM!
       -Added github project URL, license URL, and release notes to nuspec file
     </ReleaseNotes>
   </Version>
+  <Version number="1.0.2">
+    <ReleaseNotes>
+      -Because Moq is strong-named and this class returns Moq types, ensure that the Moq dependency uses an exact version number
+    </ReleaseNotes>    
+  </Version>
 </Versions>
 
