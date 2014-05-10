@@ -17,7 +17,7 @@
       - Helpers for testing code built on the Task Parallel Library
     </description>
     <summary>Core library used to support unit tests for Habitat.</summary>
-    <releaseNotes>-Because Moq is strong-named and this class returns Moq types, ensure that the Moq dependency uses an exact version number</releaseNotes>
+    <releaseNotes>-Eliminated dependency on Habitat.Core</releaseNotes>
     <licenseUrl>http://choosealicense.com/licenses/gpl-v3/</licenseUrl>
     <copyright>2014</copyright>
     <language>en-US</language>
@@ -29,7 +29,6 @@
       <dependency id="Newtonsoft.Json" version="[6.0,7.0)" />
       <dependency id="SystemWrapper-sn" version="[0.5.3]" />
       <dependency id="Microsoft.Net.Http" version="[2.0.20710.0]" />
-      <dependency id="Habitat.Core" version="[1.0,2.0)" />
     </dependencies>
   </metadata>
   <files>

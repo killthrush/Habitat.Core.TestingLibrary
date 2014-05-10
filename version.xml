@@ -21,5 +21,10 @@ ALWAYS ADD AT THE BOTTOM!
       -Because Moq is strong-named and this class returns Moq types, ensure that the Moq dependency uses an exact version number
     </ReleaseNotes>    
   </Version>
+  <Version number="1.0.3">
+    <ReleaseNotes>
+      -Eliminated dependency on Habitat.Core
+    </ReleaseNotes>
+  </Version>
 </Versions>
 
